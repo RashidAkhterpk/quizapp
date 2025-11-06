@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Application</title>
+  <script src="https://gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+  <link rel="stylesheet" href="styleQuiz.css">
+</head>
+
+<body onload="next()">
+  <div class="box">
+    <div class="timeBox">
+      <h1><em>Quiz Application</em></h1>
+      <p id="time">2:00</p>
+    </div>
+    <h5 id="quest"></h5>
+
+    <input value="1" name="options" onclick="tigger()" type="radio" />
+    <label id="option1" for=""></label>
+    <br />
+    <br />
+    <input value="2" name="options" onclick="tigger()" type="radio" />
+    <label id="option2" for=""></label>
+    <br />
+    <br />
+    <input value="3" name="options" onclick="tigger()" type="radio" />
+    <label id="option3" for=""></label>
+    <br />
+    <br />
+    <input value="4" name="options" onclick="tigger()" type="radio" />
+    <label id="option4" for=""></label>
+    <br /><br />
+
+    <button id="btn" disabled onclick="next()">Next</button>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

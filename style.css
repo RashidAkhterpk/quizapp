@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+div{
+    width: 500px;
+    height: 200px;
+    border: 5px solid rgb(56, 54, 54);
+    border-radius: 20px 20px;
+    box-shadow: 20px 20px 10px rgb(151, 151, 151);
+    margin-left: 400px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+input{
+    outline: none;
+}
+
+a{
+    font-size: 50px;
+}

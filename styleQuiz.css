@@ -1,0 +1,62 @@
+#boxBtn{
+    height: 30px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+
+#btn{
+    position: absolute;
+    top: 400px;
+    left: 370px;
+    height: 35px;
+    width: 500px;
+    border: 3px solid gray;
+    border-radius: 10px 10px;
+    margin-top: 6px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#btn:active{
+    height: 33px;
+    width: 498px;
+    left: 370px;
+}
+
+body{
+    background-image: url("Quiz3.jpg ");
+    font-size: 20px;
+}
+
+.box{
+    /* margin-top: 40px; */
+    width: 650px;
+    height: 440px;
+    border: 1px solid black;
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px gray;
+    margin-left: 270px;
+    padding-left: 20px;
+    /* background-color: aquamarine; */
+    background-color: white;
+}
+
+#time{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.timeBox{
+    text-align: center;
+    /* height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 20px; */
+}

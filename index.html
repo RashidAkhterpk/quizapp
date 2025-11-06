@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application - User Information</title>
+   <script src="https://gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+ <h1>User Information Form</h1>
+<div>
+<label for="usrId">ID</label>
+<input id = "usrId" type="text"><br>
+<label for="usrNm">Name</label>
+<input id = "usrNm" type="text"><br>
+<label for="usrEmail">Email</label>
+<input id = "usrEmail" type="text"><br>
+<label for="usrCont">Contact Number</label>
+<input id = "usrCont" type="text"><br>
+<label for="usrShift">Shift (Mon-Thur / Tue-Fri)</label>
+<input id = "usrShift" type="text"><br>
+</div>
+<br><br><br><br><br>
+<a onclick="usrdta(usrId,usrNm,usrEmail,usrCont,usrShift)" href="./Quiz.html" >Click for Quiz</a>
+<script src="appmain.js"></script>    
+</body>
+</html>
